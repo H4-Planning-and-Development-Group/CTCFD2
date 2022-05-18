@@ -4,17 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class cyuumondesu extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cyuumondesu);
 
-        ((Button)findViewById(R.id.mobilorder)).setOnClickListener(this);
+        ((ImageButton) findViewById(R.id.imageButton1)).setOnClickListener((View.OnClickListener) this);
 
     }
 
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case (R.id.mobilorder):
-                Intent intentStart = new Intent(getApplication(),MainActivitySyokudou1.class);
+            case (R.id.imageButton1):
+                Intent intentStart = new Intent(getApplication(),teisyoku.class);
                 startActivity(intentStart);
                 break;
 
@@ -31,4 +32,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
-
