@@ -97,6 +97,22 @@
         android:id="@+id/shopping"
         android:layout_width="155dp"
         android:layout_height="48dp"
+        android:text="モバイルオーダー"
+        android:textColor="#050101"
+        android:textStyle="bold"
+        app:backgroundTint="#c6c386"
+        app:iconTint="#100E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <Button
+        android:id="@+id/shopping2"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
         android:text="直販サイト"
         android:textColor="#050101"
         android:textStyle="bold"
@@ -166,7 +182,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="33dp" />
+        app:layout_constraintGuide_begin="-375dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -249,6 +265,18 @@
         app:layout_constraintVertical_bias="0.759"
         app:srcCompat="@drawable/unnamed" />
 
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="253dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
