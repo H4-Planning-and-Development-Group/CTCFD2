@@ -6,124 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/settei"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="設定"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
-
-    <Button
-        android:id="@+id/mobilorder"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="モバイルオーダー"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
-
-    <Button
-        android:id="@+id/comunity"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="コミュニティ"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
-
-    <Button
-        android:id="@+id/kupon"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="クーポン"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387" />
-
-    <Button
-        android:id="@+id/taiken"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="職業体験"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
-
-    <Button
-        android:id="@+id/mypage"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="マイページ"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
-
-    <Button
-        android:id="@+id/shopping"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="モバイルオーダー"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:iconTint="#100E0E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
-
-    <Button
-        android:id="@+id/shopping2"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="直販サイト"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:iconTint="#100E0E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -153,9 +35,9 @@
         android:id="@+id/HOME"
         android:layout_width="62dp"
         android:layout_height="64dp"
+        app:srcCompat="@drawable/ie"
         android:scaleType="fitCenter"
         android:background="@null"
-        app:srcCompat="@drawable/ie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -163,7 +45,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962"
         android:contentDescription="return home"/>
-
 
     <ImageView
         android:id="@+id/imageView4"
@@ -182,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="-375dp" />
+        app:layout_constraintGuide_begin="33dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -240,8 +121,6 @@
         app:layout_constraintVertical_bias="0.991" />
 
 
-
-
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="74dp"
@@ -254,29 +133,17 @@
         app:layout_constraintVertical_bias="0.962"
         app:srcCompat="@drawable/star" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="407dp"
-        android:layout_height="158dp"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="コミュニティは現在閉鎖しております。大変申し訳ありません。"
+        android:textSize="30dp"
+        android:textColor="#F00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"
-        app:srcCompat="@drawable/unnamed" />
-
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="253dp"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.572"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

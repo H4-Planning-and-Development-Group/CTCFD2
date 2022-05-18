@@ -17,6 +17,12 @@
             android:name=".kupon"
             android:exported="false" />
         <activity
+            android:name=".direct_sale"
+            android:exported="false" />
+        <activity
+            android:name=".community"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
