@@ -7,25 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class kupon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_kupon);
 
-        ((Button)findViewById(R.id.mypage)).setOnClickListener(this)
+        ((Button)findViewById(R.id.back)).setOnClickListener(this)
 
     }
 
     @Override
     public void onClick(View view){
         switch (view.getId()){
-            case(R.id.mypage):
-                Intent intentStart= new Intent(getApplication(),kupon.class);
+            case(R.id.back):
+                Intent intentStart= new Intent(getApplication(),MainActivity.class);
                 startActivity(intentStart);
                 break;
 
         }
+    }
+}
     }
 }
