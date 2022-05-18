@@ -14,14 +14,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ((Button)findViewById(R.id.mypage)).setOnClickListener(this)
+        ((Button)findViewById(R.id.kupon)).setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View view){
         switch (view.getId()){
-            case(R.id.mypage):
+            case(R.id.kupon):
                 Intent intentStart= new Intent(getApplication(),kupon.class);
                 startActivity(intentStart);
                 break;
