@@ -14,7 +14,10 @@
         android:theme="@style/Theme.TOPPAGE"
         tools:targetApi="31">
         <activity
-            android:name=".kemmotsu_sample"
+            android:name=".direct_sale"
+            android:exported="false" />
+        <activity
+            android:name=".community"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

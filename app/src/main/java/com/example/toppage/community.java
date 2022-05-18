@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class kemmotsu_sample extends AppCompatActivity {
+public class community extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kemmotsu_sample);
+        setContentView(R.layout.activity_community);
+
+
     }
 }
