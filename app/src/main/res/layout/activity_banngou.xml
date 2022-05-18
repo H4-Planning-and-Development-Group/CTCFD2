@@ -33,17 +33,17 @@
         app:layout_constraintVertical_bias="0.08" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/receive"
         android:layout_width="268dp"
         android:layout_height="87dp"
         android:text="注文受け取り"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.854" />
 
     <TextView
         android:id="@+id/textView23"

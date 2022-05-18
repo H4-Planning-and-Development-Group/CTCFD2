@@ -63,7 +63,7 @@
             app:layout_constraintVertical_bias="0.464" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/credit"
             android:layout_width="139dp"
             android:layout_height="123dp"
             android:text="クレジット"

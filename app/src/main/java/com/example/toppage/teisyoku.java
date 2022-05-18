@@ -13,9 +13,9 @@ public class teisyoku extends AppCompatActivity implements View.OnClickListener 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cyuumondesu);
+        setContentView(R.layout.activity_teisyoku);
 
-        ((Button) findViewById(R.id.button5)).setOnClickListener((View.OnClickListener) this);
+        ((Button) findViewById(R.id.button5)).setOnClickListener(this);
 
     }
 

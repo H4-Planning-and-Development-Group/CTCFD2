@@ -19,21 +19,6 @@
         app:layout_constraintVertical_bias="0.991" />
 
     <Button
-        android:id="@+id/mobilorder"
-        android:layout_width="155dp"
-        android:layout_height="48dp"
-        android:text="モバイルオーダー"
-        android:textColor="#050101"
-        android:textStyle="bold"
-        app:backgroundTint="#c6c386"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
-
-    <Button
         android:id="@+id/comunity"
         android:layout_width="155dp"
         android:layout_height="48dp"
@@ -94,9 +79,10 @@
         app:layout_constraintVertical_bias="0.386" />
 
     <Button
-        android:id="@+id/shopping"
+        android:id="@+id/mobileorder"
         android:layout_width="155dp"
         android:layout_height="48dp"
+        android:textSize="13dp"
         android:text="モバイルオーダー"
         android:textColor="#050101"
         android:textStyle="bold"

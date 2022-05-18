@@ -12,9 +12,9 @@ public class kakuninn2 extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cyuumondesu);
+        setContentView(R.layout.activity_kakuninn2);
 
-        ((Button) findViewById(R.id.button15)).setOnClickListener((View.OnClickListener) this);
+        ((Button) findViewById(R.id.confirm)).setOnClickListener((View.OnClickListener) this);
 
     }
 
@@ -22,7 +22,7 @@ public class kakuninn2 extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case (R.id.button15):
+            case (R.id.confirm):
                 Intent intentStart = new Intent(getApplication(),banngou.class);
                 startActivity(intentStart);
                 break;

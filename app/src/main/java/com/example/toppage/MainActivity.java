@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        ((Button)findViewById(R.id.mobilorder)).setOnClickListener(this);
+        ((Button)findViewById(R.id.mobileorder)).setOnClickListener(this);
         ((Button)findViewById(R.id.kupon)).setOnClickListener(this);
         ((Button)findViewById(R.id.comunity)).setOnClickListener(this);
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentkupon= new Intent(getApplication(),kupon.class);
                 startActivity(intentkupon);
                 break;
-            case (R.id.mobilorder):
-                Intent intentmobilorder = new Intent(getApplication(),MainActivitySyokudou1.class);
-                startActivity(intentmobilorder);
+            case (R.id.mobileorder):
+                Intent intentmobileorder = new Intent(getApplication(),syokudo.class);
+                startActivity(intentmobileorder);
                 break;
         }
     }
