@@ -8,26 +8,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
+public class community extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_community);
 
-        ((Button)findViewById(R.id.comunity)).setOnClickListener(this);
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
-
     }
 
-    //onClickメソッド実装
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case (R.id.comunity):
-                Intent intentStart = new Intent(getApplication(), community.class);
-                startActivity(intentStart);
-                break;
             case (R.id.HOME):
                 Intent intentHOME = new Intent(getApplication(),MainActivity.class);
                 startActivity(intentHOME);
