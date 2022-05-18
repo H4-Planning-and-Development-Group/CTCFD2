@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         ((Button)findViewById(R.id.comunity)).setOnClickListener(this);
+        ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
 
     }
 
@@ -26,8 +28,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentStart = new Intent(getApplication(), community.class);
                 startActivity(intentStart);
                 break;
-
+            case (R.id.HOME):
+                Intent intentHOME = new Intent(getApplication(),MainActivity.class);
+                startActivity(intentHOME);
+                break;
         }
+
 
     }
 }

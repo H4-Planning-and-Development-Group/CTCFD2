@@ -133,17 +133,21 @@
         app:layout_constraintVertical_bias="0.974"
         app:srcCompat="@drawable/settei" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ImageButton
+        android:id="@+id/HOME"
         android:layout_width="62dp"
         android:layout_height="64dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        app:srcCompat="@drawable/ie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962"
-        app:srcCompat="@drawable/ie" />
+        android:contentDescription="return home"/>
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -244,5 +248,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.759"
         app:srcCompat="@drawable/unnamed" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
