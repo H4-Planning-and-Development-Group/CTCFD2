@@ -23,6 +23,24 @@
             android:name=".community"
             android:exported="false" />
         <activity
+            android:name=".banngou"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitySyokudou1"
+            android:exported="false" />
+        <activity
+            android:name=".kakuninn2"
+            android:exported="false" />
+        <activity
+            android:name=".kakuninn"
+            android:exported="false" />
+        <activity
+            android:name=".teisyoku"
+            android:exported="false" />
+        <activity
+            android:name=".cyuumondesu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
