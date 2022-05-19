@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button)findViewById(R.id.mobileorder)).setOnClickListener(this);
         ((Button)findViewById(R.id.kupon)).setOnClickListener(this);
         ((Button)findViewById(R.id.comunity)).setOnClickListener(this);
+        ((Button)findViewById(R.id.mypage)).setOnClickListener(this);
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
 
     }
@@ -40,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentkupon= new Intent(getApplication(),kupon.class);
                 startActivity(intentkupon);
                 break;
-            case (R.id.mobileorder):
-                Intent intentmobileorder = new Intent(getApplication(),syokudo.class);
+            case (R.id.mypage):
+                Intent intentmobileorder = new Intent(getApplication(),mypage.class);
                 startActivity(intentmobileorder);
                 break;
         }
