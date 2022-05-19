@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intentkupon);
                 break;
             case (R.id.mypage):
-                Intent intentmobileorder = new Intent(getApplication(),mypage.class);
-                startActivity(intentmobileorder);
+                Intent intentmypage = new Intent(getApplication(),mypage.class);
+                startActivity(intentmypage);
                 break;
         }
     }
