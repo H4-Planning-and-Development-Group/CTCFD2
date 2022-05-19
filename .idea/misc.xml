@@ -4,19 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/TOPPAGE2/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="app/src/main/res/layout/activity_banngou.xml" value="0.1" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_banngou.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.72" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_kakuninn.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_kakuninn2.xml" value="0.1640625" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main_syokudou.xml" value="0.2" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main_syokudou1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_teisyoku.xml" value="0.2" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_banngou.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_community.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_direct_sale.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kakuninn.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kakuninn2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kupon.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_main.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_main_syokudou1.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_syokudo.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_teisyoku.xml" value="0.16875" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_toppagemypage.xml" value="0.16944444444444445" />
         <entry key="app/src/main/res/layout/activity_community.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_cyuumondesu.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_direct_sale.xml" value="0.1308876811594203" />
-        <entry key="app/src/main/res/layout/activity_kakuninn.xml" value="0.140625" />
-        <entry key="app/src/main/res/layout/activity_kakuninn2.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_kemmotsu_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kupon.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="1.1749237060546878" />
-        <entry key="app/src/main/res/layout/activity_main_syokudou1.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_syokudo.xml" value="0.2056159420289855" />
-        <entry key="app/src/main/res/layout/activity_syokudou.xml" value="0.2056159420289855" />
-        <entry key="app/src/main/res/layout/activity_teisyoku.xml" value="0.140625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24945068359375003" />
       </map>
     </option>
   </component>

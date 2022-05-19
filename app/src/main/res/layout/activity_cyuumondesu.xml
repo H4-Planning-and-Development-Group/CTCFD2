@@ -126,11 +126,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="定食"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="#4169E1"
         app:layout_constraintVertical_bias="0.023" />
 
     <Button
@@ -138,6 +140,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="一品料理"
+        android:textColor="@color/black"
+        app:backgroundTint="#B0C4DE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.328"
@@ -150,6 +154,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="飲み物"
+        android:textColor="@color/black"
+        app:backgroundTint="#B0C4DE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.613"
@@ -162,11 +168,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="デザート"
+        android:textColor="@color/black"
+        app:backgroundTint="#B0C4DE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="249dp"
+        android:layout_height="44dp"
+        android:text="本日の定食メニュー"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,9 +16,7 @@
         <activity
             android:name=".syokudo"
             android:exported="false" />
-        <activity
-            android:name=".Syokudou"
-            android:exported="false" />
+
         <activity
             android:name=".kupon"
             android:exported="false" />
@@ -56,5 +54,7 @@
             </intent-filter>
         </activity>
     </application>
+
+
 
 </manifest>
