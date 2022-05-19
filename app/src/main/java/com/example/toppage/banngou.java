@@ -16,6 +16,7 @@ public class banngou extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_banngou);
 
         ((Button)findViewById(R.id.receive)).setOnClickListener(this);
+        ((Button)findViewById(R.id.button25)).setOnClickListener(this);
     }
 
     //onClickメソッド実装
@@ -27,7 +28,10 @@ public class banngou extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intentreceive);
                 break;
 
-
+            case (R.id.button25):
+                Intent intentbutton25 = new Intent(getApplication(),KobayashiWeb.class);
+                startActivity(intentbutton25);
+                break;
         }
     }
 }

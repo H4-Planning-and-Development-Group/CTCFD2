@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageButton;
 
@@ -22,7 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button)findViewById(R.id.comunity)).setOnClickListener(this);
         ((Button)findViewById(R.id.mypage)).setOnClickListener(this);
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
-
+        ((Button)findViewById(R.id.shopping2)).setOnClickListener(this);
+        ((Button)findViewById(R.id.taiken)).setOnClickListener(this);
     }
 
     //onClickメソッド実装
@@ -49,6 +51,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentmobileorder = new Intent(getApplication(),MapTest.class);
                 startActivity(intentmobileorder);
                 break;
+            case (R.id.shopping2):
+                Intent intentshopping2 = new Intent(getApplication(),CyokuhanWeb.class);
+                startActivity(intentshopping2);
+                break;
+            case (R.id.taiken):
+                Intent intenttaiken = new Intent(getApplication(),TaikenWeb.class);
+                startActivity(intenttaiken);
+                break;
+
+
+
+
+
+
+
         }
     }
 
