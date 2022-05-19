@@ -12,14 +12,14 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 
-public class MainActivitySyokudou1 extends AppCompatActivity implements View.OnClickListener, OnMapReadyCallback {
+public class MapTest extends AppCompatActivity implements View.OnClickListener, OnMapReadyCallback {
 
     private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_syokudou1);
+        setContentView(R.layout.activity_map_test);
 
         ((Button)findViewById(R.id.button21)).setOnClickListener(this);
 
@@ -29,14 +29,12 @@ public class MainActivitySyokudou1 extends AppCompatActivity implements View.OnC
         // MapViewをMapFragmentに変更する
         FragmentTransaction fragmentTransaction =
                 getFragmentManager().beginTransaction();
-        fragmentTransaction.add(R.id.mapView, mapFragment);
+        fragmentTransaction.add(R.id.mapView2, mapFragment);
         fragmentTransaction.commit();
 
         mapFragment.getMapAsync(this);
-
     }
 
-    //onClickメソッド実装
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -44,14 +42,11 @@ public class MainActivitySyokudou1 extends AppCompatActivity implements View.OnC
                 Intent intentStart = new Intent(getApplication(),cyuumondesu.class);
                 startActivity(intentStart);
                 break;
-
-
         }
-
     }
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
     }
 }
-
