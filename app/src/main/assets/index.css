@@ -25,13 +25,14 @@ background:#fff;
 -webkit-text-size-adjust: none;
 }
 
-html{background:#f8f5f6;}
+html{background:#5386ad;}
+
 
 
 /* リンク設定
 ------------------------------------------------------------*/
-a{color:#a7445a;text-decoration:none;}
-a:hover{color:#741e34;}
+a{color:#5386ad;text-decoration:none;}
+a:hover{color:#2d6286;}
 a:active, a:focus{outline:0;}
 
 
@@ -43,7 +44,6 @@ padding:0 1%;
 width:98%;
 position:relative;
 }
-
 .inner{
 margin:0 auto;
 width:100%;
@@ -57,10 +57,9 @@ h1{
 font-size:12px;
 line-height:1.6;
 font-weight:normal;
-background:#a7445a;
+background:#5386ad;
 color:#fff;
 }
-
 #header{
 overflow:hidden;
 padding:5px 0 15px;
@@ -74,11 +73,11 @@ padding:5px 0 15px;
 *************/
 #header .logo{
 float:left;
-padding:45px 0 0;
+padding:25px 0 0;
 }
 
 .logo a{
-font-size:50px;
+font-size:20px;
 font-weight:bold;
 line-height:1;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
@@ -87,7 +86,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino,"ヒラギノ明朝 Pr
 .logo span{
 font-size:12px;
 font-weight:normal;
-color:#333;
+color:rgb(42, 41, 41);
 }
 
 .info{
@@ -121,13 +120,13 @@ font-size:13px;
 display:block;
 padding:20px 0;
 color:#fff;
-background:#e96686;
-border-left:1px solid #e96686;
+background:#5386ad;
+border-left:1px solid #2d6286;
 }
 
 ul#topnav li:first-child a,ul#topnav li:last-child a{width:155px;}
 
-ul#topnav li.active a,ul#topnav a:hover{background:#e96686;}
+ul#topnav li.active a,ul#topnav a:hover{background:#2d6286;}
 
 
 /**************************
@@ -139,7 +138,7 @@ margin:20px auto 20px;
 padding:4px;
 position:relative;
 line-height:0;
-background:#a7445a;
+background:#5386ad;
 }
 
 #mainBanner img{
@@ -156,15 +155,16 @@ left:10px;
 padding:5px 10px;
 line-height:1.4;
 z-index:100;
+
 background:url(images/tp2.png);
 }
 
 .slogan h2{
 padding-bottom:5px;
-color:#fff;
+color:rgb(8, 8, 8);
 font-size:20px;
 }
-
+s
 .slogan h3{
 font-size:14px;
 color:#ccc;
@@ -187,35 +187,35 @@ float:left;
 }
 
 .colDark,.colLight{
-padding-bottom:20px;
-border-top:20px solid #a7445a;
-border-bottom:3px solid #a7445a;
+padding-bottom:5px;
+border-top:3px solid #5386ad;
+border-bottom:3px solid #5386ad;
 }
 
-.colLight{border-color:#64d1e4}
+.colLight{border-color:#2d6286}
 
 .colDark h3,.colLight h3{
 margin:10px 10px 5px;
-font-size:30px;
+font-size:14px;
 font-weight:bold;
 }
 
 .colDark a,.colLight a{
 display:block;
-padding:20px 20px;
-border-radius:20px;
-color:rgb(15, 14, 14);
-background:#64d1e4;
+padding:3px 5px;
+border-radius:3px;
+color:rgb(255, 255, 255);
+background:#5386ad;
 }
 
-.colLight a{background:#64d1e4;}
+.colLight a{background:#2d6286;}
 
 .colDark a:hover{
-background:#ee5508;
+background:#2d6286;
 }
 
 .colLight a:hover{
-background:#ee5508;
+background:#5386ad;
 }
 
 .grid p{
@@ -225,7 +225,7 @@ padding:5px 10px;
 .grid ul{margin:5px 10px;}
 
 .grid li{
-padding:20px 0;
+padding:5px 0;
 list-style:inside;
 border-bottom:1px dashed #ebebeb;
 }
@@ -271,7 +271,7 @@ padding:5px 10px;
 margin-bottom:10px;
 font-size:16px;
 background:#f5f5f5;
-border-left:7px solid #cca1aa;  
+border-left:7px solid #5386ad;  
 }
 #sub .grid h3{margin-right:10px;}
 
@@ -313,11 +313,11 @@ margin:10px auto;
 
 table.table th,table.table td{
 padding:5px;
-border:1px solid #741e34;
+border:1px solid #2d6286;
 }
 
 table.table tr:first-child th,table.table tr:first-child td{
-border-top:#741e34 4px solid
+border-top:#2d6286 4px solid
 }
 
 table.table th{
@@ -325,7 +325,7 @@ font-weight:bold;
 letter-spacing:1px;
 white-space:nowrap;
 color:#fff;
-background:#a7445a;
+background:#5386ad;
 }
 
 
@@ -336,14 +336,14 @@ background:#a7445a;
 clear:both;
 padding:20px 0;
 overflow:hidden;
-background:#a7445a;
-border-top:1px solid #741e34;
+background:#5386ad;
+border-top:1px solid #2d6286;
 }
 
 * html #footer{height:1%;}
 
 #footer a{color:#fff;}
-#footer a:hover{color:#741e34;}
+#footer a:hover{color:#2d6286;}
 
 #footer .copyright{font-size:11px;}
 
@@ -396,7 +396,7 @@ border-top:1px solid #741e34;
 	ul#topnav li{
 	width:33%;
 	margin:0 0 5px;
-	border-right:1px solid #741e34;
+	border-right:1px solid #2d6286;
 	box-sizing:border-box;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -493,7 +493,7 @@ border-top:1px solid #741e34;
 	ul#topnav li{width:50%;}
 
 	ul#topnav li:nth-child(3n){
-	border-right:1px solid #741e34;
+	border-right:1px solid #2d6286;
 	width:50%;
 	}	
 	ul#topnav li:nth-child(2n),ul#topnav li:nth-child(6n){border-right:0;}
@@ -501,3 +501,7 @@ border-top:1px solid #741e34;
 	#mainBanner{margin-left:1px;}
 	#mainBanner h2,#mainBanner h3{font-size:80%;}
 }
+
+
+
+
