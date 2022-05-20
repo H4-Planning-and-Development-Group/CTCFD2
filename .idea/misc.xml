@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_banngou.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.12360688956433637" />
+     
+
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/TOPPAGE2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_banngou.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.72" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_kakuninn.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/reojects/CTCFD22/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_direct_sale.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_kakuninn.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_kupon.xml" value="0.21467391304347827" />
@@ -12,20 +20,41 @@
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_main_syokudou1.xml" value="0.264" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_mypage.xml" value="0.264" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/CTCFD22/app/src/main/res/layout/activity_teisyoku.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/TOPPAGE2/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_banngou.xml" value="0.18229166666666666" />
-        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.72" />
-        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_kakuninn.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_kakuninn2.xml" value="0.1640625" />
+
+  masters/layout/activity_kakuninn2.xml" value="0.1640625" />
         <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main_syokudou.xml" value="0.2" />
         <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_main_syokudou1.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ctc2022/Desktop/CTCFD/app/src/main/res/layout/activity_teisyoku.xml" value="0.2" />
+
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_banngou.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_community.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_cyokuhan_web.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_cyuumondesu.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_direct_sale.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kakuninn.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kakuninn2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kobayashi_web.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_kupon.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_main.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_main_syokudou1.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_mypage.xml" value="0.1" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_syokudo.xml" value="0.1828125" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_taiken_web.xml" value="0.13026315789473683" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_teisyoku.xml" value="0.16875" />
+        <entry key="..\:/Users/ctc2022/Desktop/CTCFD2/app/src/main/res/layout/activity_toppagemypage.xml" value="0.16944444444444445" />
+
         <entry key="app/src/main/res/layout/activity_community.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_direct_sale.xml" value="0.1308876811594203" />
         <entry key="app/src/main/res/layout/activity_kemmotsu_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kupon.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24945068359375003" />
+        <entry key="app/src/main/res/layout/activity_main_syokudou1.xml" value="0.11206817626953125" />
+        <entry key="app/src/main/res/layout/activity_map_test.xml" value="0.1956521739130435" />
+        <entry key="app/src/main/res/layout/activity_map_test2.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.166" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.166" />
       </map>
     </option>
   </component>

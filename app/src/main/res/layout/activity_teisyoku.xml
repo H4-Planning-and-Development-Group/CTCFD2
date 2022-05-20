@@ -11,6 +11,7 @@
         android:layout_width="97dp"
         android:layout_height="53dp"
         android:text="A定食"
+        android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +25,7 @@
         android:layout_height="31dp"
         android:text="600円"
         android:textSize="22dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
@@ -66,53 +68,59 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="370dp"
-        android:layout_height="77dp"
-        android:text="〇〇産（生産者：小林祐樹さん）  の作った野菜を天ぷらにしました。"
+        android:layout_width="379dp"
+        android:layout_height="112dp"
+        android:text="千葉産（生産者：小林祐樹さん）  の作ったやまのいもを天ぷらにしました。"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="384dp"
         android:layout_height="62dp"
-        android:text="アレルギー情報　　　・・・・・・・・・・・・・・・・"
+        android:text="アレルギー情報　　　　　　　　　　　小麦・卵・乳製品"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.668" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="130dp"
-        android:layout_height="57dp"
+        android:layout_width="167dp"
+        android:layout_height="49dp"
         android:text="レジに進む"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#F08080"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.96" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="136dp"
-        android:layout_height="57dp"
+        android:layout_width="178dp"
+        android:layout_height="49dp"
         android:text="カゴに入れる"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#DCDCDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.96" />
 
     <Spinner
         android:id="@+id/spinner"
