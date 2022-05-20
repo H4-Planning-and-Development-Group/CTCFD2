@@ -8,17 +8,17 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="103dp"
-        android:layout_height="31dp"
-        android:text="CTC1号店"
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:text="CTCFD_1号店"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:id="@+id/textView5"
