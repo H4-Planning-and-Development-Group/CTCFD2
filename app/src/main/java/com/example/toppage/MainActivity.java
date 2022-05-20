@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
         ((Button)findViewById(R.id.shopping2)).setOnClickListener(this);
         ((Button)findViewById(R.id.taiken)).setOnClickListener(this);
+        ((ImageButton)findViewById(R.id.new_user)).setOnClickListener(this);
     }
 
     //onClickメソッド実装
@@ -58,11 +59,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intenttaiken = new Intent(getApplication(),TaikenWeb.class);
                 startActivity(intenttaiken);
                 break;
-
-
-
-
-
+            case (R.id.new_user):
+                Intent intentuser = new Intent(getApplication(),user_infomation.class);
+                startActivity(intentuser);
+                break;
 
 
         }
