@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="合計：600円"
         android:textSize="20dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.157"
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:text="ご注文内容"
         android:textSize="25dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
@@ -49,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="A定食"
         android:textSize="20dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.161"
@@ -64,6 +67,7 @@
         android:layout_marginTop="11dp"
         android:text="お支払方法：クレジット決済"
         android:textSize="20dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.32"
@@ -73,17 +77,18 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="161dp"
+        android:layout_width="166dp"
         android:layout_height="65dp"
         android:layout_marginBottom="36dp"
         android:text="キャンセル"
+        android:textColor="@color/black"
         app:backgroundTint="#B0C4DE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.565" />
 
     <Button
         android:id="@+id/confirm"
