@@ -5,7 +5,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TOPPAGE"
         tools:targetApi="31">
-
 
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -36,10 +34,12 @@
         <activity
             android:name=".MapTest"
             android:exported="false" />
-<!--        <activity
+        <!--
+        <activity
             android:name=".MapsActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />-->
+            android:label="@string/title_activity_maps" />
+        -->
         <activity
             android:name=".KobayashiWeb"
             android:exported="false" />
@@ -64,9 +64,11 @@
         <activity
             android:name=".banngou"
             android:exported="false" />
-<!--        <activity
+        <!--
+        <activity
             android:name=".MainActivitySyokudou1"
-            android:exported="false" />-->
+            android:exported="false" />
+        -->
         <activity
             android:name=".kakuninn2"
             android:exported="false" />
@@ -81,7 +83,13 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false" />
+        <activity
+            android:name=".user_infomation"
+            android:exported="false"/>
+        <activity
+            android:name=".SignUp"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

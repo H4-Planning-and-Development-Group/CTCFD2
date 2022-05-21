@@ -19,6 +19,10 @@
         <entry key="app/src/main/res/layout/activity_kemmotsu_sample.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kupon.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24945068359375003" />
+        <entry key="app/src/main/res/layout/activity_map_test.xml" value="0.3309234619140626" />
+        <entry key="app/src/main/res/layout/activity_mypage.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.12740487387772553" />
+        <entry key="app/src/main/res/layout/activity_user_infomation.xml" value="0.10130920410156251" />
       </map>
     </option>
   </component>
