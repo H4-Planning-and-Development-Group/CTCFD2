@@ -4,10 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
 
@@ -24,7 +28,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((ImageButton)findViewById(R.id.HOME)).setOnClickListener(this);
         ((Button)findViewById(R.id.shopping2)).setOnClickListener(this);
         ((Button)findViewById(R.id.taiken)).setOnClickListener(this);
-        ((ImageButton)findViewById(R.id.new_user)).setOnClickListener(this);
+/*        ((ImageButton)findViewById(R.id.new_user)).setOnClickListener(this);*/
+
+        // Write a message to the database
+/*        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Hello, World!");
+
+        Log.d("myinfo", "onCreate: "+ myRef);*/
     }
 
     //onClickメソッド実装
@@ -59,10 +70,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intenttaiken = new Intent(getApplication(),TaikenWeb.class);
                 startActivity(intenttaiken);
                 break;
-            case (R.id.new_user):
+/*            case (R.id.new_user):
                 Intent intentuser = new Intent(getApplication(),user_infomation.class);
                 startActivity(intentuser);
-                break;
+                break;*/
 
 
         }

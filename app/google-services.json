@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "230627692646",
+    "firebase_url": "https://ctcdata-c83bf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ctcdata-c83bf",
+    "storage_bucket": "ctcdata-c83bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230627692646:android:1e533c867042b46dbf5da7",
+        "android_client_info": {
+          "package_name": "com.example.toppage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230627692646-ent18tlf65i0ml7eiqj9rv6hoev9gdjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQhy93hQWpe8ZckqkhP03JmL944kvK2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230627692646-ent18tlf65i0ml7eiqj9rv6hoev9gdjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

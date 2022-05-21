@@ -6,17 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".user_infomation">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="logo_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="新規会員登録"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </TextView>
+
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="358dp"
-        android:layout_height="497dp"
+        android:layout_width="376dp"
+        android:layout_height="467dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556">
+        app:layout_constraintVertical_bias="0.518">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/reg_name"
@@ -40,6 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Username"
+            android:transitionName="username_tran"
+            app:counterEnabled="true"
             app:counterMaxLength="15">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -60,7 +92,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,12 +117,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:hint="Password">
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            android:transitionName="password_tran">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -99,23 +133,28 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginLeft="6dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="6dp"
             android:backgroundTint="@color/black"
+            android:transitionName="button_tran"
             android:text="GO" />
 
     </LinearLayout>
 
-    <TextView
+    <Button
         android:id="@+id/hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#dcdcdc"
         android:text="既にアカウントを持っていますか？"
+        android:transitionName="login_signup_tran"
+        android:textColor="#100"
+        android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/HOME"
@@ -130,19 +169,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962"
+        android:transitionName="home_tran"
         android:contentDescription="return home"/>
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="253dp"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.572"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
-        app:srcCompat="@drawable/logo" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
