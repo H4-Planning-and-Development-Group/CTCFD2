@@ -27,7 +27,7 @@ public class mypage extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intentback2);
                 break;
             case(R.id.logout):
-                Intent intentlogout= new Intent(getApplication(),MainActivity.class);
+                Intent intentlogout= new Intent(getApplication(),SignUp.class);
                 startActivity(intentlogout);
                 break;
         }

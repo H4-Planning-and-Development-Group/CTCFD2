@@ -261,7 +261,7 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="トマトちゃん"
+        android:text="tomato"
         android:textColor="#0B0404"
         android:textSize="20sp"
         android:textStyle="bold"

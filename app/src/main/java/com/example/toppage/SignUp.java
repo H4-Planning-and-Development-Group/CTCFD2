@@ -25,9 +25,9 @@ import com.google.firebase.database.ValueEventListener;
 
 
 public class SignUp extends AppCompatActivity {
-/*    Button callSignUp, Login_btn;
+/*    Button callSignUp, Login_btn;*/
     ImageButton home;
-    ImageView image;
+/*    ImageView image;
     TextView logoText, sloganText;
     TextInputLayout username, password;*/
 
@@ -51,8 +51,8 @@ public class SignUp extends AppCompatActivity {
         sloganText = findViewById(R.id.slogan_name);
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
-        Login_btn = findViewById(R.id.login_btn);
-        home = findViewById(R.id.HOME);*/
+        Login_btn = findViewById(R.id.login_btn);*/
+        home = findViewById(R.id.HOME);
         final EditText username = findViewById(R.id.username);
         final EditText password = findViewById(R.id.password);
         final Button LoginBtn = findViewById(R.id.login_btn);
@@ -132,7 +132,22 @@ public class SignUp extends AppCompatActivity {
             }
         });
 
+        home.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                switch (view.getId()) {
+                    case (R.id.HOME):
+                        Intent intenthome = new Intent(getApplication(), MainActivity.class);
+                        startActivity(intenthome);
+                        break;
+                }
+            }
+        });
+
+
     }
+
+
 
 /*    private Boolean validateUsername() {
         String val = username.getEditText().getText().toString();
