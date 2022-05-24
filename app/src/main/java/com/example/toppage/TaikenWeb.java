@@ -20,7 +20,7 @@ public class TaikenWeb extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webView2);
         myWebView.setWebViewClient(new WebViewClient());
         Object https;
-        myWebView.loadUrl("file:///android_asset/1_MatchingTop.html");
+        myWebView.loadUrl("file:///android_asset/WEBサイト_鈴木/1_MatchingTop.html");
 
     }
 

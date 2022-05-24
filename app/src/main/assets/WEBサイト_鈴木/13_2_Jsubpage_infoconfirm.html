@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="description" content="申し込み内容確認">
+<meta name="keywords" content="">
+<title>申し込み内容確認</title>
+<link rel="stylesheet" href="style(job).css" type="text/css" media="screen">
+
+<script>
+    window.onload = function() {
+
+        // URLを取得
+        const url = new URL(window.location.href);
+
+        // URLSearchParamsオブジェクトを取得
+        const params = url.searchParams;
+
+        // consoleに受け取ったパラメータを出力
+        console.log(params);
+
+        // パラメータから「username」を取得
+        const jname = params.get("jname");
+        const jnamekana = params.get("jnamekana");
+        const jmail = params.get("jmail");
+        const jphone = params.get("jphone");
+        const jbirthday = params.get("jbirthday");
+        const jadress = params.get("jadress");
+        const jcomment = params.get("jcomment");
+
+        // IDを使ってspan要素を取得する
+        const span1 = document.getElementById("receivedjname");
+        const span2 = document.getElementById("receivedjnamekana");
+        const span3 = document.getElementById("receivedjmail");
+        const span4 = document.getElementById("receivedjphone");
+        const span5 = document.getElementById("receivedjjbirthday");
+        const span6 = document.getElementById("receivedadress");
+        const span7 = document.getElementById("receivedjcomment");
+
+        // 取得したspan要素に受け取ったパラメータを代入
+        span1.innerText = jname;
+        span2.innerText = jnamekana;
+        span3.innerText = jmail;
+        span4.innerText = jphone;
+        span5.innerText = jbirthday;
+        span6.innerText = jadress;
+        span7.innerText = jcomment;
+
+    }
+</script>
+
+</head>
+
+<body>
+    <div id="header">
+         <div class="inner">
+               
+            <div class="logo">
+                <a href="11_JobPageTop.html"><strong>求人広告/アルバイト</strong><br></a>
+                </div>
+    
+    <div class="info">
+            <p class="tel">電話: <strong>000-0000-0000</strong></p>
+                <p>受付時間: 平日 AM 9:00 〜 PM 5:00</p>
+        </div>
+    
+      </div>
+    </div>
+    
+    <div id="wrapper">
+    
+      <!-- トップナビゲーション -->
+      <ul id="topnav">
+        <li class="active"><a href="11_JobPageTop.html">トップページ<br><span>Top</span></a></li>
+        <li><a href="11_JobPageTop.html">検索<br><span>Serch</span></a></li>
+        <li><a href="11_JobPageTop.html">直販サイト<br><span>Direct selling</span></a></li>
+        <li><a href="1_MatchingTop.html">農業体験<br><span>Farming Experience</span></a></li>
+        <li><a href="15_1_JMyPageTop.html">マイページ<br><span>My Page</span></a></li>
+        <li><a href="11_JobPageTop.html">お問い合わせ<br><span>Contact</span></a></li>
+    </ul>
+        <!-- トップナビゲーション -->
+    
+    
+        <!-- メイン画像 -->
+        <div id="mainBanner" class="mainImg">
+            <img src="images/Summer1.jpg" width="930" height="300" alt="">
+    
+            </div>
+
+  <!-- 出力フォーム -->
+
+
+  <section class="content2">
+    <h3 class="heading"><b>申し込み内容確認</b></h3>
+    <p><b>お申込み求人</b><br>
+    <p>お名前（必須）<br>
+    <span id="receivedjname"></span>
+    <p>お名前(カナ)（必須）<br>
+    <span id="receivedjnamekana"></span>  
+    <p>メールアドレス<br>
+    <span id="receivedjmail"></span>
+    <p>電話番号（必須）<br>
+    <span id="receivedjphone"></span>
+    <p>生年月日（必須）(例: 000-0000-0000) <br>
+    <span id="receivedjbirthday"></span>
+    <p>住所（必須）(例: AA県BB市CC区1-2-3) <br>
+    <span id="receivedjadress"></span> 
+    <p>その他ご質問・ご要望ございましたらご記入ください<br>
+    <span id="receivedjcomment"></span>
+
+    <br>
+    <br>
+
+</section>
+
+<form action="14_Jsubpage_Thanks.html" method="Goal">
+
+<button type="submit" name="btn_confirm">確定する</button>
+
+</form>
+
+
+   <br>
+   <br>
+
+   <div id="wrapper">	
+    
+    <ul id="topnav">
+        <li class="active"><a href="13_1_Jsubpage_infoinput.html"><b>前の画面に戻る</b><br></a></li>
+    </div>
+
+    <div id="wrapper">
+        <h2>カテゴリー別検索</h2>	
+
+        <ul id="topnav">
+            <li class="active"><a href="11_JobPageTop.html">人気の求人<br><span>Popular Jobs</span></a></li>
+            <li><a href="11_JobPageTop.html">求人ランキング<br><span>Jobs Ranking</span></a></li>
+            <li><a href="11_JobPageTop.html">月給ランキング<br><span>Monthly Salary Ranking</span></a></li>
+            <li><a href="11_JobPageTop.html">地方別検索<br><span>Search by Area</span></a></li>
+            <li><a href="11_JobPageTop.html">作物ごとの検索<br><span>Search by Crop</span></a></li>
+        </ul>
+    
+            </div>
+  
+  <section class="gridWrapper" id="sub">
+  
+    <article class="grid col2">
+      <h3>CTC FD</h3>	
+          <p>CTC FDは自然との調和を目指します。SDGsと言ったらCTC FD !</p>
+          <p>梅雨は毎年いやですね。。。</p>
+          <p>ニュージーランドみたいな気候で過ごしたいなああ！！</p>
+          <p>からっと暖かく涼しいみたいな感じね！</p>
+          <p class="readmore"><a href="11_JobPageTop.html">詳細を確認する</a></p>
+  </article>
+  
+  <article class="grid">
+    <h3>インフォメーション</h3>
+    <ul>
+        <li><a href="11_JobPageTop.html">今週のおすすめ</a></li>
+        <li><a href="11_JobPageTop.html">若い農家さんの声</a></li>
+        <li><a href="11_JobPageTop.html">サイトの利用方法</a></li>
+        <li><a href="11_JobPageTop.html">直販サイト</a></li>
+        <li><a href="1_MatchingTop.html">農業体験</a></li>
+        <li><a href="15_1_JMyPageTop.html">マイページ</a></li>
+        <li><a href="11_JobPageTop.html">トップページ</a></li>
+    </ul>
+</article>
+
+</section>
+
+</body>
+</html>
