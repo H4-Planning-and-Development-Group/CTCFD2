@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja"> <!--書字方向dirを左から右へltr、言語属性は日本語-->
+<head>
+<meta charset="UTF-8"> <!--文字コードUTF-8を指定-->
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="description" content="CTCFD直販サイト"> <!--検索エンジン表示におけるページコンテンツの概要-->
+<meta name="keywords" content="CTCFD直販サイト"> <!--メタキーワード-->
+<title>CTCFD直販サイト</title> <!--検索結果の表示名-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+
+
+<body><!--本文開始-->
+
+<div id="header">　<!--ヘッダー[サイト上部]-->
+	<div class="inner">
+		<div class="logo"> <!--クラスlogo--><!--WEB上部のサイト名-->
+			<a href="1-1 トップページ.html"><strong>CTCFD直販サイト</strong></a>
+		</div>　<!--/WEB上部のサイト名-->
+		<div class="info"> <!--クラスinfo--> <!--電話番号と受付時間-->
+    	<p class="tel">電話: <strong>000-0000-0000</strong></p>
+			<p>受付時間: 平日 AM 9:00 〜 PM 5:00</p>
+		</div>　<!--/電話番号と受付時間-->
+	</div>
+</div>　<!--/ヘッダー[サイト上部]-->
+
+<div id="wrapper"> <!--包むもの-->
+	<ul id="topnav"> <!--トップナビゲーション[アイコン3つ]-->
+		<li><a href="1-1 トップページ.html">トップページ<br><span>Top</span></a></li>
+    <li><a href="1-2 検索ページ.html">検索<br><span>Search</span></a></li>
+		<li class="active"><a href="1-3 購入ページ.html">購入<br><span>Buy</span></a></li>
+	</ul>
+  <!-- トップナビゲーション[アイコン3つ] -->
+</div>
+
+
+ <!-- 出力フォーム -->
+ <section class="content2">
+  <h3 class="heading">注文内容</h3>
+  <table border="3">
+    <tr><th>商品名</th><th>個数</th><th>金額</th></tr>
+    <tr><td>じゃがいも</td><td>3</td><td>600</td></tr>
+    <tr><td>たまねぎ</td><td>2</td><td>300</td></tr>
+    <tr><td>にんじん</td><td>3</td><td>210</td></tr>
+    <tr><td>やまのいも</td><td>2</td><td>360</td></tr>
+  </table>
+  <h2>合計金額　￥1,470</h2>
+
+  <h3 class="heading">お客様情報</h3>
+
+  <p>お名前フルネーム※必須：<br>
+  <span id="receivedname"></span>
+  <p>お名前(カナ)※必須：<br>
+  <span id="receivednamekana"></span>  
+  <p>メールアドレス：<br>
+  <span id="receivedmail"></span>
+  <p>電話番号※必須：<br>
+  <span id="receivedphone"></span>
+  <p>住所※必須： <br>
+  <span id="receivedadress"></span> 
+  <p>その他ご質問・ご要望ございましたらご記入ください：<br>
+  <span id="receivedcomment"></span>
+
+  <h3 class="heading">支払い情報</h3>
+  <div>
+    <input type="checkbox" id="horns"name="horns"checked>
+    <label for="scales">コンビニ支払い</label>
+  </div>
+  <div>
+    <input type="checkbox" id="scales"name="scales"checked>
+    <label for="scales">クレジット支払い</label>
+  </div>
+  <p>姓[FIRST]：<br>
+  <span id="receivedsei"></span>
+  <p>名[NAME]：<br>
+  <span id="receivedmei"></span>  
+  <p>カード番号：<br>
+  <span id="receivedcard"></span>
+  <p>有効期限：<br>
+  <span id="receivedstart"></span>
+  <p>セキュリティコード： <br>
+  <span id="receivedcord"></span> 
+  
+</section>
+
+
+
+
+<div id="wrapper">
+  <ul id="topnav">
+    <li class="active"><a href="end.html">確定する<br></a></li>
+</div>
+
+<div id="wrapper">	
+  <ul id="topnav">
+    <li class="active"><a href="1-3 購入ページ.html">前の画面に戻る<br></a></li>
+</div>
+
+<!--フッター-->
+<div id="footer">
+	<div class="inner">
+        <section class="gridWrapper">
+            <article class="grid">
+                <p class="logo"><a href="1-1 トップページ.html">CTCFD直販サイト</span></a></p>
+            </article>
+        </section>
+    </div>
+</div>
+<!--/フッター-->
+
+
+
+</body>
+</html>
+
+
+

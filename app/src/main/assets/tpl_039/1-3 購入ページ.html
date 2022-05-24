@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja"> <!--書字方向dirを左から右へltr、言語属性は日本語-->
+<head>
+<meta charset="UTF-8"> <!--文字コードUTF-8を指定-->
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="description" content="CTCFD直販サイト"> <!--検索エンジン表示におけるページコンテンツの概要-->
+<meta name="keywords" content="CTCFD直販サイト"> <!--メタキーワード-->
+<title>CTCFD直販サイト</title> <!--検索結果の表示名-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+
+<body><!--本文開始-->
+
+<div id="header">　<!--ヘッダー[サイト上部]-->
+	<div class="inner">
+		<div class="logo"> <!--クラスlogo--><!--WEB上部のサイト名-->
+			<a href="1-1 トップページ.html"><strong>CTCFD直販サイト</strong></a>
+		</div>　<!--/WEB上部のサイト名-->
+		<div class="info"> <!--クラスinfo--> <!--電話番号と受付時間-->
+    	<p class="tel">電話: <strong>000-0000-0000</strong></p>
+			<p>受付時間: 平日 AM 9:00 〜 PM 5:00</p>
+		</div>　<!--/電話番号と受付時間-->
+	</div>
+</div>　<!--/ヘッダー[サイト上部]-->
+
+<div id="wrapper"> <!--包むもの-->
+	<ul id="topnav"> <!--トップナビゲーション[アイコン3つ]-->
+		<li><a href="1-1 トップページ.html">トップページ<br><span>Top</span></a></li>
+    <li><a href="1-2 検索ページ.html">検索<br><span>Search</span></a></li>
+		<li class="active"><a href="1-3 購入ページ.html">購入<br><span>Buy</span></a></li>
+	</ul>
+  <!-- トップナビゲーション[アイコン3つ] -->
+</div>
+
+
+
+
+
+		<!-- サブ画像 -->
+		<div id="mainBanner" class="subImg">
+      <img src="picture-images/支払い画像.png" alt="" width="940" height="200">
+    </div>
+		<!-- / サブ画像 -->
+    
+<!-- コンテンツ -->
+	<section id="main">
+    <section class="content">
+      <h3 class="heading">注文内容</h3>
+      <table border="3">
+        <tr><th>商品名</th><th>個数</th><th>金額</th></tr>
+        <tr><td>じゃがいも</td><td>3</td><td>600</td></tr>
+        <tr><td>たまねぎ</td><td>2</td><td>300</td></tr>
+        <tr><td>にんじん</td><td>3</td><td>210</td></tr>
+        <tr><td>やまのいも</td><td>2</td><td>360</td></tr>
+      </table>
+      <h2>合計金額　￥1,470</h2>
+      
+      <h3 class="heading">お客様情報</h3><br>
+            <form action="z3_2_subpage_confirm_p1.html" method="Get">
+                <p>お名前フルネーム※必須　(例：田町太郎)<br>
+                <input type="text" name="name"></p>
+                <p>お名前(カナ)※必須　(例：タマチタロウ)<br>
+                <input type="text" name="namekana"></p>
+                <p>メールアドレス　<br>
+                <input type="text" name="mail"></p>
+                <p>電話番号※必須　(例: 000-0000-0000)<br>
+                <input type="text" name="phone"></p>
+                <p>住所※必須 (例：○○都道府県○○市○○ 1-2-3)<br>
+                <textarea name="adress" cols="40" rows="4"></textarea></p>
+                <p>その他ご質問・ご要望ございましたらご記入ください<br>
+                <textarea name="comment" cols="40" rows="6"></textarea></p>
+            </form><br>
+            
+            
+            <h3 class="heading">決済方法</h3><br>
+            <div class="body-text">支払い方法の選択をし、クレジット支払いの方は各項目の入力をお願いします。</div><br>
+            <div>
+                <input type="checkbox" id="horns"name="horns"checked>
+                <label for="scales">コンビニ支払い</label>
+            </div>
+            <div>
+                <input type="checkbox" id="scales"name="scales"checked>
+                <label for="scales">クレジット支払い</label>
+                
+                <form action="1-3 購入ページ.html" method="Get">
+                <br><p>姓[FIRST NAME]<br>
+                <input type="text" name="sei"></p>
+                <p>名[NAME]<br>
+                <input type="text" name="mei"></p>
+                <p>カード番号<br>
+                <input type="text" name="card"></p>
+                <p>有効期限<br>
+                <label for="start"></label>
+                <input type="month" id="start" name="start" min"2015-01" value="2030-03">
+                <p>セキュリティコード<br>
+                <input type="text" name="code"></p>
+            </form><br>
+		</section>
+  	<section class="content">
+</div>
+
+
+<div id="wrapper">
+  <ul id="topnav">
+    <li class="active"><a href="1-3-1 出力.html">入力内容を確認する<br></a></li>
+</div>
+
+<div id="wrapper">	
+  <ul id="topnav">
+    <li class="active"><a href="1-1 トップページ.html">前の画面に戻る<br></a></li>
+</div>
+
+<!--フッター-->
+<div id="footer">
+	<div class="inner">
+        <section class="gridWrapper">
+            <article class="grid">
+                <p class="logo"><a href="1-1 トップページ.html">CTCFD直販サイト</span></a></p>
+            </article>
+        </section>
+    </div>
+</div>
+<!--/フッター-->
+
+
+
+</body>
+</html>
+
+
+

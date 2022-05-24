@@ -1,0 +1,743 @@
+@charset "utf-8";
+
+
+/* =Reset default browser CSS.
+Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button,cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border: 0;font-family: inherit;font-size: 100%;font-style: inherit;font-weight: inherit;margin: 0;outline: 0;padding: 0;vertical-align: baseline;}
+:focus {outline: 0;}
+
+ol, ul {list-style: none;}
+table {border-collapse: separate;border-spacing: 0;}
+caption, th, td {font-weight: normal;text-align: left;}
+blockquote:before, blockquote:after,q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a img{border: 0;}
+figure{margin:0}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+/* -------------------------------------------------------------- */
+
+body{
+color:#333;
+font:12px verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+line-height:1.5;
+background:#fff;
+-webkit-text-size-adjust: none;
+}
+
+html{background:#f8f5f6;}
+
+
+/* リンク設定
+------------------------------------------------------------*/
+a{color:#104c05;text-decoration:none;}
+a:hover{color:#104c05;}
+a:active, a:focus{outline:0;}
+
+
+/* 全体
+------------------------------------------------------------*/
+#wrapper{
+margin:0 auto;
+padding:0 1%;
+width:98%;
+position:relative;
+}
+
+.inner{
+margin:0 auto;
+width:100%;
+}
+
+
+/*************
+/* ヘッダー
+*************/
+h1{
+font-size:12px;
+line-height:1.6;
+font-weight:normal;
+background:#44a759;
+color:#fff;
+}
+
+#header{
+overflow:hidden;
+padding:5px 0 15px;
+}
+
+* html #header{height:1%;}
+
+
+/*************
+/* ロゴ
+*************/
+#header .logo{
+float:left;
+padding:45px 0 0;
+}
+
+.logo a{
+font-size:50px;
+font-weight:bold;
+line-height:1;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+
+.logo span{
+font-size:12px;
+font-weight:normal;
+color:#333;
+}
+
+.info{
+float:right;
+padding:20px 0 0;
+}
+
+.tel strong{
+font-size:20px;
+font-weight:bold;
+}
+
+/**************************
+/* トップナビゲーション
+**************************/
+ul#topnav{
+overflow:hidden;
+margin:10px 0;
+}
+
+* html ul#topnav{height:1%;}
+
+ul#topnav li{
+float:left;
+text-align:center;
+font: size 20px;
+}
+
+ul#topnav a{
+width:156px;
+font: size 30px;
+display:block;
+padding:20px 0;
+color:rgb(10, 0, 0);
+background:#a3f8c4;
+border-left:1px solid #a3f8c4;
+}
+
+ul#topnav li:first-child a,ul#topnav li:last-child a{width:155px;}
+
+ul#topnav li.active a,ul#topnav a:hover{background:#a3f8c4;}
+
+ul#topnav li.apply a,ul#topnav a:hover{background:#e684d9;}
+
+ul#topnav li.keep a,ul#topnav a:hover{background:#dae50f;}
+
+ul#topnav li.back a,ul#topnav a:hover{background:#df8cbd;}
+
+ul#topnav li.mypage a,ul#topnav a:hover{background:#f8d0a3;}
+
+/**************************
+/* メイン画像（トップページ+サブページ）
+**************************/
+#mainBanner{
+clear:both;
+margin:10px auto 10px;
+padding:4px;
+position:relative;
+line-height:0;
+background:#05a249;
+}
+
+#mainBanner img{
+max-width:auto;
+height:auto;
+}
+
+.slogan{
+position:absolute;
+max-width:100%;
+height:auto;
+bottom:10px;
+left:10px;
+padding:5px 10px;
+line-height:1.4;
+z-index:100;
+background:url(images/tp2.png);
+}
+
+.slogan h2{
+padding-bottom:5px;
+color:#fff;
+font-size:20px;
+}
+
+.slogan h3{
+font-size:14px;
+color:#ccc;
+}
+
+
+/**************************
+/* グリッド
+**************************/
+.gridWrapper{
+clear:both;
+padding:40px 0;
+overflow:hidden;
+font-size:20px;
+}
+
+* html .gridWrapper{height:1%;}
+	
+.grid{
+float:left;
+}
+
+.colDark,.colLight{
+padding-bottom:20px;
+border-top:20px solid #023019;
+border-bottom:3px solid #023019;
+}
+
+.colLight{border-color:#0df369}
+
+.colDark h3,.colLight h3{
+margin:10px 10px 5px;
+font-size:50px;
+font-weight:bold;
+}
+
+.colDark a,.colLight a{
+display:block;
+padding:20px 20px;
+border-radius:20px;
+color:rgb(15, 14, 14);
+background:#4e8a46;
+}
+
+.colLight a{background:#b3ebab;}
+
+.colDark a:hover{
+background:#ea950c;
+}
+
+.colLight a:hover{
+background:#ee5508;
+}
+
+.grid p{
+padding:5px 10px;
+}
+
+.grid ul{margin:5px 10px;}
+
+.grid li{
+padding:20px 0;
+list-style:inside;
+border-bottom:1px dashed #ebebeb;
+}
+
+.gridWrapper img{
+max-width:100%;
+height:auto;
+}
+
+
+.gridWrapper2{
+	clear:both;
+	padding:40px 0;
+	overflow:hidden;
+	font-size:20px;
+	}
+	
+	* html .gridWrapper2{height:1%;}
+		
+	.grid2{
+	float:left;
+	}
+	
+	.colDark2,.colLight2{
+	padding-bottom:20px;
+	border-top:20px solid #ea780e;
+	border-bottom:3px solid #e27bcf;
+	}
+	
+	.colLight2{border-color:#f3eb0d}
+	
+	.colDark2 h3,.colLight2 h3{
+	margin:10px 10px 5px;
+	font-size:50px;
+	font-weight:bold;
+	}
+	
+	.colDark2 a,.colLight2 a{
+	display:block;
+	padding:20px 20px;
+	border-radius:20px;
+	color:rgb(15, 14, 14);
+	background:#cb9125;
+	}
+	
+	.colLight2 a{background:#e0e96c;}
+	
+	.colDark2 a:hover{
+	background:#ea950c;
+	}
+	
+	.colLight2 a:hover{
+	background:#ee5508;
+	}
+	
+	.grid2 p{
+	padding:5px 10px;
+	}
+	
+	.grid2 ul{margin:5px 10px;}
+	
+	.grid2 li{
+	padding:20px 0;
+	list-style:inside;
+	border-bottom:1px dashed #ebebeb;
+	}
+	
+	.gridWrapper2 img{
+	max-width:100%;
+	height:auto;
+	}
+
+	
+/* フッター内のグリッド(3カラム) */
+#footer .grid{
+color:#fff;
+background:transparent;
+}
+
+#footer .col3 ul{margin:0 0 10px 5px;}
+
+#footer .col3 li{
+padding:0 6px 0 5px;
+margin-bottom:3px;
+list-style:none;
+border-bottom:0;
+display:inline-block;
+border-right:1px solid #fff;
+}
+
+
+/*************
+メイン コンテンツ
+*************/
+section.content{
+margin-bottom:20px;
+font-size:14px;
+overflow:hidden;
+}
+
+* html section.content{height:1%;}
+
+section.content p{margin-bottom:5px;}
+
+h3.heading,#sub .grid h3{
+padding:5px 10px;
+margin-bottom:10px;
+font-size:22px;
+background:#f5f5f5;
+border-left:7px solid #cca1aa;  
+}
+#sub .grid h3{margin-right:10px;}
+
+.alignleft{
+float:left;
+clear:left;
+margin:3px 10px 10px 1px;
+}
+
+.alignright{
+float:left;
+clear:left;
+margin:3px 1px 10px 10px;
+}
+
+img.frame,#gallery img{
+border:4px solid #fff;
+box-shadow:0 0 2px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#gallery .gridWrapper{padding:0;}
+
+#gallery img{
+margin:5px;
+}
+
+section#gallery{overflow:visible;}
+
+
+
+section.content2{
+	margin-bottom:20px;
+	font-size:14px;
+	overflow:hidden;
+	}
+	
+	* html section.content2{height:1%;}
+	
+	section.content2 p{margin-bottom:5px;}
+	
+	
+/*************
+テーブル
+*************/
+table.table{
+border-collapse:collapse;
+width:100%;
+margin:10px auto;
+}
+
+table.table th,table.table td{
+padding:5px;
+border:1px solid #c2c2fb;
+}
+
+table.table tr:first-child th,table.table tr:first-child td{
+border-top:#5d66e0 4px solid
+}
+
+table.table th{
+font-weight:bold;
+letter-spacing:1px;
+white-space:nowrap;
+color:#fff;
+background:#5d66e0;
+}
+
+table.table1{
+	border-collapse:collapse;
+	width:100%;
+	margin:10px auto;
+	font: size 20px;
+	}
+	
+	table.table1 th,table.table td{
+	padding:5px;
+	border:1px solid #c2c2fb;
+	font: size 20px;
+	}
+	
+	table.table1 tr:first-child th,table.table1 tr:first-child td{
+	border-top:#084603 4px solid
+	}
+	
+	table.table1 th{
+	font: size 20px;
+	font-weight:bold;
+	letter-spacing:1px;
+	white-space:nowrap;
+	color:rgb(11, 11, 11);
+	background:#30f398;
+	}
+
+
+/*************
+/* フッター
+*************/
+#footer{
+clear:both;
+padding:20px 0;
+overflow:hidden;
+background:#a7445a;
+border-top:1px solid #741e34;
+}
+
+* html #footer{height:1%;}
+
+#footer a{color:#fff;}
+#footer a:hover{color:#741e34;}
+
+#footer .copyright{font-size:11px;}
+
+
+/* PC用 */
+@media only screen and (min-width:960px){
+	#wrapper,.inner{
+	width:940px;
+	padding:0;
+	}
+	
+	#wrapper{padding-bottom:20px;}
+	
+	#main{
+	float:right;
+	width:690px;
+	}
+	
+	#subpage #sub{
+	float:left;
+	width:235px;
+	overflow:hidden;
+	}
+	
+	/* グリッド */
+	.grid{width:235px;}
+	.col2{width:470px;}
+	.col3{width:705px;}
+	#gallery .grid{width:230px;}
+	#subpage #sub .grid{
+	width:100%;
+	float:none;
+	padding-bottom:30px;
+	}
+	
+}
+
+
+/* モニター幅960px以下 */
+@media only screen and (max-width:960px){
+	h1 p.inner{padding:0 2%;width:96%}
+	#header .logo{padding-left:10px;}
+	#header .info{padding-right:10px;}
+	
+	ul#topnav{
+	clear:both;
+	width:100%;
+	}
+
+	ul#topnav li{
+	width:33%;
+	margin:0 0 5px;
+	border-right:1px solid #741e34;
+	box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+	}
+
+	ul#topnav li:nth-child(3n){border-right:0;width:34%;}
+
+	ul#topnav li a{
+	width:100%;
+	border-top:0;
+	}
+
+	ul#topnav li:first-child a,ul#topnav li:last-child a{width:100%;}
+	
+	.grid{
+	width:50%;
+	margin:2px 0;
+	}
+	
+	.col2{
+	float:none;
+	width:100%;
+	margin:0 0 20px;
+	}
+	
+	.grid img{
+	float:left;
+	margin-right:5px;
+	}
+	
+	#gallery .grid{
+	width:31%;
+	margin:0 1%;
+	padding:0;
+	}
+	
+	#gallery .grid img{
+	float:none;
+	}
+	
+	section.content{padding:0 10px;}
+	
+	section.content img{
+  max-width:90%;
+	height:auto;
+	}
+	
+	#sub .grid{padding-bottom:20px;}
+	
+	#footer{padding:0;}
+	
+	#footer .grid{
+	float:none;
+	width:100%;
+	margin-bottom:5px;
+	text-align:center;
+	}
+}
+
+
+/* iPad 縦 */
+@media only screen and (max-width:768px){
+	#mainBanner{padding:3px;}
+}
+
+
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+	.grid{width:100%;}
+	
+	.grid img{
+	float:none;
+	margin:20px auto 10px;
+	}
+	
+	.grid p{text-align:left;}
+	
+	img.frame,#gallery img{border-width:2px;}
+
+  .alignleft,.alignright{
+	float:none;
+	display:block;
+	margin:0 auto 10px;
+	}
+	
+	#footer .grid p{text-align:center;}
+}
+
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+	#header .logo{padding-top:10px;}
+  .info{padding:10px 0 0;}
+	ul#topnav li{width:50%;}
+
+	ul#topnav li:nth-child(3n){
+	border-right:1px solid #741e34;
+	width:50%;
+	}	
+	ul#topnav li:nth-child(2n),ul#topnav li:nth-child(6n){border-right:0;}
+	
+	#mainBanner{margin-left:1px;}
+	#mainBanner h2,#mainBanner h3{font-size:80%;}
+}
+
+button{
+	margin:0 auto;
+	padding:1%;
+	width:20%;
+	position:relative;
+	background-color: #e684d9;
+	font-size:20;
+}
+
+
+/*LINE*/
+
+#your_container{
+    /* 高さや幅など、好きな様に設定
+    bms_messages_containerの方で、縦横いっぱいに広がってくれるので、
+    ここで充てた高さと横幅がそのままスタイルになる仕組み */
+
+    height:600px;/*ここはご自由に*/
+    width: 50%;/*ここはご自由に*/
+}
+
+/* チャットの外側部分① */
+#bms_messages_container{
+    height: 100%;/*your_containerに対して100%になる */
+    width: 100%;/*your_containerに対して100%になる */
+    background-color: #eee;
+}
+
+/* ヘッダー部分② */
+#bms_chat_header {
+    padding: 6px;/*隙間調整*/
+    font-size: 16px;
+    height: 34px;
+    background: #ddd;
+    border: 1px solid #ccc;
+}
+    /* ステータスマークとユーザー名 */
+    #bms_chat_user_status {
+        float: left;/* bms_chat_headerに対して左寄せ */
+    }
+    /* ステータスマーク */
+    #bms_status_icon {
+        float: left;/* bms_chat_user_statusに対して左寄せ */
+        line-height: 2em;/*高さ調整*/
+    }
+    /* ユーザー名 */
+    #bms_chat_user_name {
+        float: left;/* bms_chat_user_statusに対して左寄せ */
+        line-height: 2em;/*高さ調整*/
+        padding-left: 8px;
+		background-color: #ec708f;
+    }
+
+/* タイムライン部分③ */
+#bms_messages {
+    overflow: auto;/* スクロールを効かせつつ、メッセージがタイムラインの外に出ないようにする */
+    height:100%;/*テキストエリアが下に張り付く様にする*/
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    background-color: #eee;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2) inset;/*ヘッダーの下に影を入れる*/
+}
+    /* メッセージ全般のスタイル */
+    .bms_message {
+        margin: 0px;
+        padding: 0 14px;/*吹き出しがタイムラインの側面にひっつかない様に隙間を開ける*/
+        font-size: 16px;
+        word-wrap: break-word;/* 吹き出し内で自動で改行 */
+        white-space: normal;/*指定widthに合わせて、文字を自動的に改行*/
+    }
+    /* メッセージ１（左側） */
+    .bms_left {
+        float: left;/*吹き出しをbms_messagesに対して左寄せ*/
+        line-height: 1.3em;
+		background-color: rgb(205, 200, 200);
+    }
+    /* メッセージ２（右側） */
+    .bms_right {
+        float: right;/*吹き出しをbms_messagesに対して右寄せ*/
+        line-height: 1.3em;
+		background-color: rgb(160, 217, 245);
+    }
+    /* 回り込みを解除 */
+    .bms_clear {
+        clear: both; /* 左メッセージと右メッセージの回り込み(float)の効果の干渉を防ぐために必要（これが無いと、自分より下のメッセージにfloatが影響する） */
+
+    }
+
+/* テキストエリア、送信ボタン④ */
+#bms_send {
+    background-color:#eee;/*タイムラインの色と同じにする*/
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 48px;
+    padding: 4px;
+}
+    #bms_send_message{
+        width: calc(100% - 75px);/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+        line-height: 16px;
+        height: 48px;
+        padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
+        border: 1px solid #ccc;
+        border-radius: 4px;/*角丸*/
+        text-align: left;/*文字を左寄せ*/
+        box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
+        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+
+    }
+    #bms_send_btn {
+        width: 72px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 3em;
+        float: right;/*bms_sendに対して右寄せ*/
+        color: #fff;
+        font-weight: bold;
+        background: #bcbcbc;
+        text-align: center;/*文字をボタン中央に表示*/
+        border: 1px solid #bbb;
+        border-radius: 4px;/*角丸*/
+        box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+    }
+    #bms_send_btn:hover {
+        background: #13178E; /*マウスポインタを当てた時にアクティブな色になる*/
+        cursor: pointer;/*マウスポインタを当てた時に、カーソルが指の形になる*/
+    }
+

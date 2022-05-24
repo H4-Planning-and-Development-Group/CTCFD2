@@ -17,6 +17,6 @@ public class KobayashiWeb extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webView3);
         myWebView.setWebViewClient(new WebViewClient());
         Object https;
-        myWebView.loadUrl("file:///android_asset/subpage9.html");
+        myWebView.loadUrl("file:///android_asset/tpl_039/1-5-3 小林さん.html");
     }
 }

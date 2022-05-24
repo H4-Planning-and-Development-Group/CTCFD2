@@ -17,7 +17,7 @@ public class CyokuhanWeb extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webView);
         myWebView.setWebViewClient(new WebViewClient());
         Object https;
-        myWebView.loadUrl("https://www.google.com/");
+        myWebView.loadUrl("file:///android_asset/tpl_039/1-1 トップページ.html");
 
 
     }
